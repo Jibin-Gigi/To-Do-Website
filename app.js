@@ -1,6 +1,7 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list");
 
+// eslint-disable-next-line no-unused-vars
 const addTask = () => {
   let item = inputBox.value;
   if (item === "") alert("You must write something!");
